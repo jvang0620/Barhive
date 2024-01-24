@@ -8,7 +8,6 @@ BarHive - A social network application for bars and nightlife enthusiasts
     <img src="static/images/screenshot.png" alt="Product Name Screenshot" width="600">
 </div>
 
-
 BarHive is a social networking platform for bars and people who love nightlife. It allows users to create profiles, connect with other users, and share posts related to their favorite bars and events. The application provides features such as creating posts, commenting, and liking posts. Users can also follow other users and view their profiles. The application also supports business profiles, which allows bar owners to create profiles for their bars and showcase their business.
 
 ## Technologies Used
@@ -96,7 +95,10 @@ The application uses a PostgreSQL database with the following schema:
 - `comment` - Stores user comments on posts, including their content and associated image path
 
 ## ERD Data Schema
-[PNG](static/images/ERD_PNG.png)
+
+<div align="center">
+    <img src="static/images/ERD_PNG.png" alt="Product Name Screenshot" width="600">
+</div>
 
 ## Future Work
 
@@ -106,3 +108,7 @@ Future development of this application could include the following features:
 - Integration with third-party APIs to provide more information about bars and events
 - Chat functionality to allow users to communicate with each other directly
 - Integration with a payment system to allow users to purchase tickets or make reservations for events.
+
+## Contributors
+
+Clayton West, Jai Vang, Christian Siros, Cameron Jackson, Fred Schuck, Colin Brown
