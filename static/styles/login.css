@@ -1,0 +1,272 @@
+.login-card {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+.left-card {
+    width: 70%;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 65px;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.right-card {
+    width: 30%;
+    background-color: #57A1BD;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px solid #5592a8;
+    border-top: 1px solid #5592a8;
+    border-bottom: 1px solid #5592a8;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.right-card h2 {
+    padding-top: 100px;
+    font: normal normal 900 35px/55px Poppins;
+    color: white;
+}
+
+.left-card h2 {
+    margin-top: 0;
+    color: #7F7F7F;
+    font: normal normal 900 45px/68px Poppins;
+}
+
+.right-card span {
+    font: normal normal normal 14px/19px Poppins;
+    color: white;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login input {
+    width: 70%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #A6CAD8;
+    background-color: #A6CAD84B;
+    font-size: 14px;
+}
+
+::placeholder {
+    color: #57A1BD;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none !important;
+    border-color: #57A1BD;
+}
+
+.message {
+    height: 20px;
+    font-size: 12px;
+    margin-bottom: 0px;
+    padding: 5px;
+}
+
+.message-m {
+    font-size: 12px;
+    margin-bottom: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.login-btn {
+    width: 70%;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #57A1BD;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #5592a8;
+}
+
+.signup-btn {
+    width: 70%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    font: normal normal normal 14px/19px Poppins;
+    color: #747474;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #f2f2f2;
+}
+
+.google {
+    text-decoration: none;
+    color: #7F7F7F;
+}
+
+.social-button {
+    padding: 10px;
+}
+
+.social-login {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font: normal normal normal 14px/19px Poppins;
+    color: #7F7F7F;
+}
+
+.social-login span {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.social-login button {
+    flex: 1;
+    margin: 0 5px;
+}
+
+.or-line {
+    width: 70%;
+    height: 13px;
+    border-bottom: 1px solid #9F9F9F;
+    color: #7F7F7F;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.or-span {
+    font-size: 10px;
+    background-color: white;
+    padding: 0 10px;
+}
+
+/* google button */
+.gsi-material-button {
+    /* -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-appearance: none; */
+    background-color: WHITE;
+    background-image: none;
+    border: 1px solid #747775;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #1f1f1f;
+    cursor: pointer;
+    font-family: 'Roboto', arial, sans-serif;
+    font-size: 14px;
+    height: 40px;
+    letter-spacing: 0.25px;
+    outline: none;
+    overflow: hidden;
+    padding: 0 12px;
+    position: relative;
+    text-align: center;
+    -webkit-transition: background-color .218s, border-color .218s, box-shadow .218s;
+    transition: background-color .218s, border-color .218s, box-shadow .218s;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: auto;
+    max-width: 400px;
+    min-width: min-content;
+}
+
+.gsi-material-button .gsi-material-button-icon {
+    height: 20px;
+    margin-right: 12px;
+    min-width: 20px;
+    width: 20px;
+}
+
+.gsi-material-button .gsi-material-button-content-wrapper {
+    -webkit-align-items: center;
+    align-items: center;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    height: 100%;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+.gsi-material-button .gsi-material-button-contents {
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    font-family: 'Roboto', arial, sans-serif;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+}
+
+.gsi-material-button .gsi-material-button-state {
+    -webkit-transition: opacity .218s;
+    transition: opacity .218s;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.gsi-material-button:disabled {
+    cursor: default;
+    background-color: #ffffff61;
+    border-color: #1f1f1f1f;
+}
+
+.gsi-material-button:disabled .gsi-material-button-contents {
+    opacity: 38%;
+}
+
+.gsi-material-button:disabled .gsi-material-button-icon {
+    opacity: 38%;
+}
+
+.gsi-material-button:not(:disabled):active .gsi-material-button-state,
+.gsi-material-button:not(:disabled):focus .gsi-material-button-state {
+    background-color: #303030;
+    opacity: 12%;
+}
+
+.gsi-material-button:not(:disabled):hover {
+    -webkit-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
+}
+
+.gsi-material-button:not(:disabled):hover .gsi-material-button-state {
+    background-color: #303030;
+    opacity: 8%;
+}
